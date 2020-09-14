@@ -1,0 +1,15 @@
+Lab 09 - List of Commands
+
+Templates URL:
+https://azure.microsoft.com/es-es/resources/templates/
+
+==================================================
+
+DEPLOY THE TEMPLATE
+New-AzResourceGroupDeployment `
+  -Name addtags `
+  -ResourceGroupName myResourceGroup `
+  -TemplateFile $templateFile `
+  -storagePrefix "store" `
+  -storageSKU Standard_LRS `
+  -webAppName demoapp
