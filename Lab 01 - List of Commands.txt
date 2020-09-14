@@ -1,0 +1,16 @@
+Lab 01 - List of Commands
+
+CREATE SAMPLE RRCE AzResourceGroupDeployment
+
+New-AzResourceGroup `
+  -Name myResourceGroup `
+  -Location "Central US"
+
+==================================================
+
+DEPLOY THE TEMPLATE
+$templateFile = "{provide-the-path-to-the-template-file}"
+New-AzResourceGroupDeployment `
+  -Name blanktemplate `
+  -ResourceGroupName myResourceGroup `
+  -TemplateFile $templateFile
