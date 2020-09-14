@@ -1,0 +1,10 @@
+Lab 04 - List of Commands
+
+==================================================
+
+DEPLOY THE TEMPLATE
+New-AzResourceGroupDeployment `
+  -Name addlocationparameter `
+  -ResourceGroupName myResourceGroup `
+  -TemplateFile $templateFile `
+  -storageName "{new-unique-name}"
