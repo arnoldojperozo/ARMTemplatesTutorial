@@ -1,0 +1,11 @@
+Lab 06 - List of Commands
+
+==================================================
+
+DEPLOY THE TEMPLATE
+New-AzResourceGroupDeployment `
+  -Name addoutputs `
+  -ResourceGroupName myResourceGroup `
+  -TemplateFile $templateFile `
+  -storagePrefix "store" `
+  -storageSKU Standard_LRS
