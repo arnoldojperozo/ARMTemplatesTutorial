@@ -1,0 +1,10 @@
+Lab 03 - List of Commands
+
+==================================================
+
+New-AzResourceGroupDeployment `
+  -Name addnameparameter `
+  -ResourceGroupName myResourceGroup `
+  -TemplateFile $templateFile `
+  -storageName "{your-unique-name}"
+
