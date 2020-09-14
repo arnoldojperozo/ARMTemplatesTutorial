@@ -1,10 +1,4 @@
-Lab 01 - List of Commands
-
-CREATE SAMPLE RESOURCE  GROUP
-
-New-AzResourceGroup `
-  -Name myResourceGroup `
-  -Location "Central US"
+Lab 02 - List of Commands
 
 ==================================================
 
